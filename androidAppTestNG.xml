@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Automation Test">
+	//this is when BeforeSuite runs
+	<test name="Android Tests">
+		//this is when BeforeTest runs
+		<packages>
+			<package name="androidApp" />
+			//As the tests are run, this is when BeforeMethod and AfterMethod runs
+		</packages>
+	//this is when AfterTest runs
+	</test>
+//This is when AfterSuite runs
+</suite>
